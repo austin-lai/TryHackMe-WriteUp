@@ -39,13 +39,13 @@ Note:
 
 ## Task 1
 
-For task 1, you may follow-thru the room instruction and get the basic understanding of the room
+For task 1, you may follow-thru the task instruction and get the basic understanding of the room
 
 <br />
 
 ## Task 2
 
-For task 2, you may also follow-thru the room instruction and get the tools.
+For task 2, you may also follow-thru the task instruction and get the tools.
 
 As mentioned, personally would suggest to use JTR.
 
@@ -124,6 +124,9 @@ For task 3, read-thru and understand the command.
   cat custom-pass.txt | ./hcre KoreLogicRulesAppendMonthCurrentYear.rule KoreLogicRulesL33t.rule > new-custom-pass.txt
   ```
 
+---
+
+> Do let me know any command can be improve or you have any question you can contact me via THM message or write down comment below or via FB
 
 
 
