@@ -20,8 +20,8 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
 
 - [TryHackMe(THM)-WriteUp](#tryhackmehtm-writeup)
     - [Table of Contents](#table-of-contents)
-    - [TryHackMe(THM)-Custom Wordlists](tryhackmethm-custom-wordlists-readme.md)
+    - [TryHackMe(THM)-Custom Wordlists](https://github.com/austin-lai/TryHackMe-WriteUp/TryHackMe(THM)-Custom Wordlists/README.md)
 
-TryHackMe(THM)-Custom Wordlists/README.md
+
 
 <!-- /TOC -->
