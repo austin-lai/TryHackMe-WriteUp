@@ -22,9 +22,9 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
 
 - [TryHackMe(THM)-WriteUp](#tryhackmethm-writeup)
     - [Table of Contents](#table-of-contents)
-    - [TryHackMe(THM) - Custom Wordlists - WriteUp]()
-    - [TryHackMe(THM) - Investigating Windows 2.0 - WriteUp]()
-    - [TryHackMe(THM) - Investigating Windows 3.x - WriteUp]()
+    - [TryHackMe(THM) - Custom Wordlists - WriteUp](TryHackMe(THM)-Custom Wordlists/README.md)
+    - [TryHackMe(THM) - Investigating Windows 2.0 - WriteUp](TryHackMe(THM)-Investigating Windows 2.0/README.md)
+    - [TryHackMe(THM) - Investigating Windows 3.x - WriteUp](TryHackMe(THM)-Investigating Windows 3.x/README.md)
 
 <!-- /TOC -->
 
