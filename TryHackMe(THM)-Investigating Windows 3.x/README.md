@@ -7,7 +7,7 @@
 
 <!-- Description -->
 
-[Room = TryHackMe-Investigating Windows 3.x](https://tryhackme.com/room/investigatingwindows3)
+[Room = TryHackMe(THM) - Investigating Windows 3.x](https://tryhackme.com/room/investigatingwindows3)
 
 The room require you completed the previous 2 investigating Windows room, those room will equiped you at least basic knowledge and skill to continue this room.
 
@@ -31,7 +31,7 @@ There are 30 questions in the room.
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Investigating Windows 3.x  - WriteUp](#tryhackmethm---investigating-windows-3x----writeup)
+- [TryHackMe(THM) - Investigating Windows 3.x  - WriteUp](#tryhackmethm---investigating-windows-3x----writeup)
     - [Table of Contents](#table-of-contents)
     - [Question 1 - 5](#question-1---5)
     - [Question 6 - 8](#question-6---8)
