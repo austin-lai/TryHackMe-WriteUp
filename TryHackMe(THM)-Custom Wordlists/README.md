@@ -19,7 +19,7 @@ Note:
   - Install with JTR
   - python2.7 (since JTR zip2john require python2.7) & python3.9
 
-<!-- Description -->
+<!-- /Description -->
 
 <br />
 
@@ -27,7 +27,7 @@ Note:
 
 <!-- TOC -->
 
-- [TryHackMe(THM) - Custom Wordlists - WriteUp](#tryhackmethm---custom-wordlists---writeup)
+- [TryHackMeTHM - Custom Wordlists - WriteUp](#tryhackmethm---custom-wordlists---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Task 2](#task-2)
@@ -62,8 +62,12 @@ If you using kali, it will be in the directory - ` /usr/share/wordlists/ `; do c
 **Using grep**
 
 Note:
+
 - Before you start to crack the password, do generate every zip hashes if you plan to use JTR --- ` zip2john flag1.txt.zip > flag1hash.txt `
+
 - Presuming you know JTR command ` john flag1hash.txt --wordlist=rockyou.txt `
+
+<br />
 
 For task 3, read-thru and understand the command.
 

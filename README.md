@@ -12,7 +12,7 @@ New to here, will try to update everything here.
 
 Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
 
-<!-- Description -->
+<!-- /Description -->
 
 <br />
 
@@ -20,12 +20,8 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
 
 <!-- TOC -->
 
-- [TryHackMe(THM)-WriteUp](#tryhackmehtm-writeup)
+- [TryHackMeTHM-WriteUp](#tryhackmethm-writeup)
     - [Table of Contents](#table-of-contents)
-    - [TryHackMe(THM)-Custom Wordlists](TryHackMe(THM)-Custom%20Wordlists/README.md)
-    - [TryHackMe(THM)-Investigating Windows 3.x](TryHackMe(THM)-Investigating%20Windows%203.x/README.md)
-
-
 
 <!-- /TOC -->
 
