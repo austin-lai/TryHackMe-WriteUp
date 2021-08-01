@@ -20,8 +20,11 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
 
 <!-- TOC -->
 
-- [TryHackMeTHM-WriteUp](#tryhackmethm-writeup)
+- [TryHackMe(THM)-WriteUp](#tryhackmethm-writeup)
     - [Table of Contents](#table-of-contents)
+    - [TryHackMe(THM) - Custom Wordlists - WriteUp]()
+    - [TryHackMe(THM) - Investigating Windows 2.0 - WriteUp]()
+    - [TryHackMe(THM) - Investigating Windows 3.x - WriteUp]()
 
 <!-- /TOC -->
 
