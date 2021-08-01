@@ -7,7 +7,7 @@
 
 <!-- Description -->
 
-[Room = TryHackMe-Investigating Windows 2.0](https://tryhackme.com/room/investigatingwindows2)
+[Room = TryHackMe(THM) - Investigating Windows 2.0](https://tryhackme.com/room/investigatingwindows2)
 
 The question is jump back and forth, so ...
 
@@ -21,11 +21,11 @@ The question is jump back and forth, so ...
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Investigating Windows 2.0  - WriteUp](#tryhackmethm---investigating-windows-20----writeup)
+- [TryHackMe(THM) - Investigating Windows 2.0  - WriteUp](#tryhackmethm---investigating-windows-20----writeup)
     - [Table of Contents](#table-of-contents)
     - [Question 1](#question-1)
     - [Question 2](#question-2)
-    - [Question 3 - 7, 15](#question-3---7-15)
+    - [Question 3 - 7 , 15 - 24 , 26 - 28](#question-3---7--15---24--26---28)
     - [Question 8](#question-8)
     - [Question 9](#question-9)
     - [Question 10](#question-10)
