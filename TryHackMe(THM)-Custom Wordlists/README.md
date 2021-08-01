@@ -7,7 +7,7 @@
 
 <!-- Description -->
 
-[TryHackMe-Custom Wordlists](https://tryhackme.com/room/customwordlists)
+[Room = TryHackMe-Custom Wordlists](https://tryhackme.com/room/customwordlists)
 
 The room recommends using either fcrackzip or John the Ripper for cracking the passwords.
 
