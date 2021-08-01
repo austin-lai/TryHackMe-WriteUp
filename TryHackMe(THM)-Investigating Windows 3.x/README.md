@@ -1,1 +1,383 @@
 
+# TryHackMe(THM) - Investigating Windows 3.x  - WriteUp
+
+> Austin Lai | August 1st, 2021
+
+---
+
+<!-- Description -->
+
+[Room = TryHackMe-Investigating Windows 3.x](https://tryhackme.com/room/investigatingwindows3)
+
+The room require you completed the previous 2 investigating Windows room, those room will equiped you at least basic knowledge and skill to continue this room.
+
+There are 3 files provided in the room which is a saved stated snapshot of the malware:
+
+- Procmon file named "Logfile"
+- Autorun file named "WIN-Q5JJRDM876J"
+- Sysmon file named "Sysmon"
+
+Those files will be your key to answer the questions in this room.
+
+There are 30 questions in the room.
+
+**Note :** You will also need at least basic amount of knowledge regarding registry key, powershell command and windows event as well as focusing on the event time.
+
+<!-- Description -->
+
+<br />
+
+## Table of Contents
+
+<!-- TOC -->
+
+- [TryHackMeTHM - Investigating Windows 3.x  - WriteUp](#tryhackmethm---investigating-windows-3x----writeup)
+    - [Table of Contents](#table-of-contents)
+    - [Question 1 - 5](#question-1---5)
+    - [Question 6 - 8](#question-6---8)
+    - [Question 9](#question-9)
+    - [Question 10](#question-10)
+    - [Question 11](#question-11)
+    - [Question 12](#question-12)
+    - [Question 13](#question-13)
+    - [Question 14](#question-14)
+    - [Question 15](#question-15)
+    - [Question 16](#question-16)
+    - [Question 17](#question-17)
+    - [Question 18](#question-18)
+    - [Question 19](#question-19)
+    - [Question 20](#question-20)
+    - [Question 21](#question-21)
+    - [Question 22](#question-22)
+    - [Question 23 - 25](#question-23---25)
+    - [Question 26](#question-26)
+    - [Question 27](#question-27)
+    - [Question 28](#question-28)
+    - [Question 29](#question-29)
+    - [Question 30](#question-30)
+
+<!-- /TOC -->
+
+<br />
+
+## Question 1 - 5
+
+Suggest you check on the Autorun and Sysmon files file as there are fewer event and key information for you to analyse and understand the environment.
+
+You will find the answer in these 2 files.
+
+<details><summary>Hint 1</summary>
+
+```text
+powershell command
+```
+
+</details>
+
+<details><summary>Hint 2</summary>
+
+```text
+Look at the detail of the event --- sysmon
+```
+
+</details>
+
+<details><summary>Hint 3</summary>
+
+```text
+Use the answer you find in the question 2, Google it - Mitre Attack
+```
+
+</details>
+
+<br />
+
+## Question 6 - 8
+
+Locate the event and full command and payload from previous answer.
+
+Decode it.
+
+<details><summary>Hint</summary>
+
+```text
+Base64 --- you can use online, linux or powershell to decode
+```
+
+</details>
+
+After decoded payload from question 6, you will find the answer here.
+
+<br />
+
+## Question 9
+
+If you decoded correctly all the payload, you will find the answer there.
+
+<details><summary>Hint</summary>
+
+```text
+Try to decode all the payload ... in payload ... in payload ...
+```
+
+</details>
+
+<br />
+
+## Question 10
+
+For this question, it is tricky as it require additional step or investigation that does not provided by the room
+
+Once you get the answer from question 9, you will need to find the sysmon event relevant to the dll.
+
+However, you will notice you can't find any event or event id associate with it.
+
+Pay attention to the sysmon event you found, you will need it for further action.
+
+The dll is used by specific file, Google it to find what is the file represent for --- a certain service.
+
+Then you have to Goolge it to get the idea what event or where to search the event associate with the service --- it is under Event Viewer > Applications and Services > Microsoft > Windows > ... > Admin Log
+
+There there ... you will find the event associate with it and event id.
+
+<details><summary>Hint</summary>
+
+```text
+Question hint given in the toom --- This DLL is associated with Print Spooler or Fax services
+```
+
+</details>
+
+<br />
+
+## Question 11
+
+You can find this answer in Sysmon file, search the services you get from question 10
+
+<details><summary>Hint</summary>
+
+```text
+Check out the event detail - Friendly name
+```
+
+</details>
+
+<br />
+
+## Question 12
+
+The answer is right there from question 10 and 11.
+
+<br />
+
+## Question 13
+
+Although you can find the PID from question 10 once you locate the event.
+
+However, you can also find the PID from procmon file you have.
+
+In the procmon file, search for the dll or the specific file using the dll you get from question 9.
+
+Then, right click to check on "Event Properties" --- check on the "Process" tab.
+
+You will find the parent PID there.
+
+<br />
+
+## Question 14
+
+For this, you know what process is running the encoded payload that was mentioned in question 1 - 5.
+
+Search it in the procmon file, you will get the answer.
+
+<br />
+
+## Question 15
+
+The answer is right there in the payload, if you not yet done question 9.
+
+Try harder.
+
+<br />
+
+## Question 16
+
+This question also tricky, the answers are not in corerct order from the question, switch the order.
+
+<details><summary>Hint</summary>
+
+```text
+There is one specific popular attack framework for powershell, Google it !
+
+Check out the "Quick Start" page from thier website ! Look closer to the screenshot provided in the page !
+```
+
+</details>
+
+<br />
+
+## Question 17
+
+The answer was mentioned in the "Quick Start" page from thier website ! Look closer to the screenshot provided in the page !
+
+<details><summary>Hint</summary>
+
+```text
+The extension of the answer is not the one mentioned in the screenshot.
+
+It was the extension you get from the payload
+```
+
+</details>
+
+<br />
+
+## Question 18
+
+Google it !
+
+<br />
+
+## Question 19
+
+You can find the answer in procmon file.
+
+Only turn on "Show Network Activities", you will find the answer !
+
+<br />
+
+## Question 20
+
+In the procmon file, with question 19, you will find other process is connected to the same !
+
+<br />
+
+## Question 21
+
+Once you locate the process, the answer is right there !
+
+<br />
+
+## Question 22
+
+Since you have identify the process in procmon file.
+
+With "Show Network Activities" turn on, filter to include only the 2 process PID.
+
+You will get cleaner event, then turn on "Show Process and Thread Activities".
+
+Notice the question asked the "first imaged loaded after the 2 process".
+
+Pay attention to "Operation"
+
+You will find that none of the load image is after those 2 process
+
+**TIPS :** To help you find the answer quicker, use "Highlight" to hightlight the "Operation = load image"
+
+You will find the answer !
+
+<details><summary>Hint</summary>
+
+```text
+If you still can't find the answer, here is the big hint for you --- check on the timestamp with x:07:06
+```
+
+</details>
+
+<br />
+
+## Question 23 - 25
+
+In the sysmon file, you can search with the combination of PID of 2 process, you will that multiple event generated by these 2 process.
+
+The event shown will contain 2 process, that's the answer !
+
+<br />
+
+## Question 26
+
+The answer is the next event of Question 22 in procmon file.
+
+<br />
+
+## Question 27
+
+This is the trickiest question !!!
+
+As we have no idea what the information refered in the question.
+
+But, back to basic --- if we want to collect or gather information from the machine --- what can we collect ??
+
+Machines information ?? OS information ??
+
+If that is the case, what is the relevant registry key ??
+
+Google it, you will find one particular register key path is relevant !!
+
+<details><summary>Hint 1</summary>
+
+```text
+Question hint given by the room --- Try searching for ProcMon events beginning with '1/21/2021 5:07'
+```
+
+</details>
+
+<details><summary>Hint 2</summary>
+
+```text
+To help you find the answer easier, try to filter "Path" only include the base registry key
+
+You will find only handful of relevant registry key path
+```
+
+</details>
+
+<details><summary>Hint 3</summary>
+
+```text
+Last and Big hint, "Window NT", google it what is the interesting registry path
+```
+
+</details>
+
+<br />
+
+## Question 28
+
+Once you get the answer from question 27, you will find this answer.
+
+Remember to check on the "Event Properties" and "Stack Details"
+
+However, there is a cheatsheet you can used in procmon file.
+
+Go to > Tools > Stack Summary
+
+You will find one particular stack (remember what was the 2 process you found in question 22) with interesting stack modules
+
+<br />
+
+## Question 29
+
+For this question, do much more research online regarding the attack framewwork.
+
+What are the popular module provided by the attack framework?
+
+Looking back our investigation, do you notice how the attacker use the attack framework? Specifically, pay attention on the powershell and process used.
+
+There is similiar attack method with sql !!!
+
+<br />
+
+## Question 30
+
+Google it !!
+
+---
+> Credit to the post from [haksthehax](https://haksthehax.com/2021/07/08/tryhackme-investigating-windows-3-x/), you will find some detail from the reference; although the reference might not directly help to get the answer for some question, still it can be a very good references point. 😄
+
+> Question 27 and 28 took me alots of time to figure out, although initially I was using dump method to find by filter and exclude irrelevant event one by one, once I get the answer, looking back the rationale behind, it is easier to understand the standpoint on how to investigate.
+
+> Do let me know any command can be improve or you have any question you can contact me via THM message or write down comment below or via FB
+
+
+
