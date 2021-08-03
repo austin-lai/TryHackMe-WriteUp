@@ -130,9 +130,12 @@ For task 3, read-thru and understand the command.
   cat custom-pass.txt | ./hcre KoreLogicRulesAppendMonthCurrentYear.rule KoreLogicRulesL33t.rule > new-custom-pass.txt
   ```
 
+<br />
+
 ---
 
-> Do let me know any command can be improve or you have any question you can contact me via THM message or write down comment below or via FB
+> Do let me know any command or step can be improve or you have any question you can contact me via THM message or write down comment below or via FB
+
 
 
 
