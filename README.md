@@ -28,6 +28,10 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
 
 <!-- /TOC -->
 
+---
+
+> Do let me know any command or step can be improve or you have any question you can contact me via THM message or write down comment below or via FB
+
 
 
 
