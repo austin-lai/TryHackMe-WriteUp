@@ -21,7 +21,7 @@ You will learn basic knowledge and understanding of tshark and its usage.
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Tshark  - WriteUp](#tryhackmethm---tshark----writeup)
+- [TryHackMe(THM) - Tshark  - WriteUp](#tryhackmethm---tshark----writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Task 2](#task-2)
