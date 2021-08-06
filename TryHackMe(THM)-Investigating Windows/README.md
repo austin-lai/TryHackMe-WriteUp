@@ -9,7 +9,7 @@
 
 [Room = TryHackMe(THM) - Investigating Windows](https://tryhackme.com/room/investigatingwindows)
 
-The question is jump back and forth, so ...
+Difficulty: **easy**
 
 **Note :** You will need at least basic amount of knowledge regarding registry key, powershell command, scripting and windows event as well as focusing on the event time.
 
