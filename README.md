@@ -31,6 +31,7 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
     - [TryHackMe(THM) - SESH Birthday CTF - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-SESH%20Birthday%20CTF)
     - [TryHackMe(THM) - HackBack 2019](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-HackBack%202019)
     - [TryHackMe(THM) - HaskHell - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-HaskHell)
+    - [TryHackMe(THM) - Tshark - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Tshark)
 
 <!-- /TOC -->
 
