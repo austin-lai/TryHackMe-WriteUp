@@ -9,6 +9,7 @@
 
 [Room = TryHackMe(THM) - HackBack 2019](https://tryhackme.com/room/hackback2019)
 
+Difficulty: **Medium**
 
 <!-- /Description -->
 
