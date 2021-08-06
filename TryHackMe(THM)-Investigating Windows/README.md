@@ -21,7 +21,7 @@ The question is jump back and forth, so ...
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Investigating Windows  - WriteUp](#tryhackmethm---investigating-windows----writeup)
+- [TryHackMe(THM) - Investigating Windows  - WriteUp](#tryhackmethm---investigating-windows----writeup)
     - [Table of Contents](#table-of-contents)
     - [Question 1](#question-1)
     - [Question 2](#question-2)
