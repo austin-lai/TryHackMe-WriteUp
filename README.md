@@ -23,6 +23,7 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
 - [TryHackMe(THM)-WriteUp](#tryhackmethm-writeup)
     - [Table of Contents](#table-of-contents)
     - [TryHackMe(THM) - Custom Wordlists - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/blob/master/TryHackMe(THM)-Custom%20Wordlists)
+    - [TryHackMe(THM) - Investigating Windows - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Investigating%20Windows)
     - [TryHackMe(THM) - Investigating Windows 2.0 - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/blob/master/TryHackMe(THM)-Investigating%20Windows%202.0)
     - [TryHackMe(THM) - Investigating Windows 3.x - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/blob/master/TryHackMe(THM)-Investigating%20Windows%203.x)
     - [TryHackMe(THM) - SESH Birthday CTF - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-SESH%20Birthday%20CTF)
