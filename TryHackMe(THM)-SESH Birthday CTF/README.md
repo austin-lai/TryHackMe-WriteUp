@@ -64,7 +64,7 @@ Nothing to solve.
 
 Just read through the statement given by SESH
 
-Time to spin up the machine ! 
+Time to spin up the machine !
 
 <br />
 
