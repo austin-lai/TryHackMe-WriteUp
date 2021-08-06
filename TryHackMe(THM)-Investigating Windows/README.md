@@ -11,6 +11,8 @@
 
 Difficulty: **Easy**
 
+The room is completed on June 17th, 2021
+
 **Note :** You will need at least basic amount of knowledge regarding registry key, powershell command, scripting and windows event as well as focusing on the event time.
 
 <!-- /Description -->
