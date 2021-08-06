@@ -9,6 +9,8 @@
 
 [Room = TryHackMe(THM) - Investigating Windows 3.x](https://tryhackme.com/room/investigatingwindows3)
 
+Difficulty: **Medium**
+
 The room require you completed the previous 2 investigating Windows room, those room will equiped you at least basic knowledge and skill to continue this room.
 
 There are 3 files provided in the room which is a saved stated snapshot of the malware:
