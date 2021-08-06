@@ -11,6 +11,8 @@
 
 Difficulty: **Easy**
 
+The room is completed on July 25th, 2021
+
 The room recommends using either fcrackzip or John the Ripper for cracking the passwords.
 
 Personally --- suggest to use JTR with zip2john, you can install JTR or it comes with Kali.
