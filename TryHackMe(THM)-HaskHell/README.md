@@ -21,11 +21,11 @@ You will learn basic knowledge and understanding of Haskell and get to know pyth
 
 <!-- TOC -->
 
-- [TryHackMeTHM - HaskHell  - WriteUp](#tryhackmethm---haskhell----writeup)
+- [TryHackMe(THM) - HaskHell  - WriteUp](#tryhackmethm---haskhell----writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
         - [User Flag](#user-flag)
-        - [root flag](#root-flag)
+        - [Root flag](#root-flag)
 
 <!-- /TOC -->
 
@@ -144,7 +144,7 @@ Yeah, you get the user flag.
 
 <br />
 
-### root flag
+### Root flag
 
 Let's do enum again.
 
