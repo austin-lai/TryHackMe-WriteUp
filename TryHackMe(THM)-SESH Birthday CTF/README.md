@@ -37,7 +37,7 @@ Now, let's get started !!!
 
 <!-- TOC -->
 
-- [TryHackMeTHM - SESH Birthday CTF - WriteUp](#tryhackmethm---sesh-birthday-ctf---writeup)
+- [TryHackMe(THM) - SESH Birthday CTF - WriteUp](#tryhackmethm---sesh-birthday-ctf---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Task 2](#task-2)
