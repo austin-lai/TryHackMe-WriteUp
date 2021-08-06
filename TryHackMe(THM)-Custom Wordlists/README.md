@@ -9,7 +9,7 @@
 
 [Room = TryHackMe(THM) - Custom Wordlists](https://tryhackme.com/room/customwordlists)
 
-Difficulty: **easy**
+Difficulty: **Easy**
 
 The room recommends using either fcrackzip or John the Ripper for cracking the passwords.
 
