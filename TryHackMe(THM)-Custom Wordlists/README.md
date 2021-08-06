@@ -9,6 +9,8 @@
 
 [Room = TryHackMe(THM) - Custom Wordlists](https://tryhackme.com/room/customwordlists)
 
+Difficulty: **easy**
+
 The room recommends using either fcrackzip or John the Ripper for cracking the passwords.
 
 Personally --- suggest to use JTR with zip2john, you can install JTR or it comes with Kali.
