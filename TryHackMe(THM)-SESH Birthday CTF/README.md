@@ -84,7 +84,7 @@ Use them wisely.
 
 There's a flag on the first web page you encounter
 
-<details><summary>Hint Given by the question</summary>
+<details><summary>Hint given by the question</summary>
 
 ```text
 Manipulate how you view the image, research basic steganography techniques.
@@ -128,7 +128,7 @@ _So long you know what you going to enumerate for web server, you should get thi
 
 You will need to get this right to proceed further.
 
-<details><summary>Spoiler Hint</summary>
+<details><summary>Hint - Spoiler</summary>
 
 Literally, check out the cookies.
 
@@ -376,7 +376,7 @@ Then you have the flag !
 
 Hackerman has hidden a file somewhere. Look around and find a way to retrieve it.
 
-<details><summary>Hint by question</summary>
+<details><summary>Hint given by question</summary>
 
 ```text
 Never neglect to check the source code of a web page.
@@ -450,7 +450,7 @@ Combination of the hint given, the secret message, we manage to find the secret 
 
 In Hackerman's file there's a flag you need to decode, what is it? (There are clues hidden around the site that may help you with this task)
 
-<details><summary>Hint by question</summary>
+<details><summary>Hint given by question</summary>
 
 ```text
 It's a Microsoft font with a funny-sounding name.
@@ -482,7 +482,7 @@ You'll need to use the credentials found in Hackerman's file to log into the sys
 
 Find a way to do that. This task will require lateral thinking to find the key information to log in.
 
-<details><summary>Hint by question</summary>
+<details><summary>Hint given by question</summary>
 
 ```text
 The password is the name of a famous movie.
@@ -546,7 +546,7 @@ Let pause for a moment, while we get additional side task - check out question 1
 
 SIDE TASK: You may have noticed Mr Robot has a song for you. There's something going on at a deeper level with this, find the flag.
 
-<details><summary>Hint by question</summary>
+<details><summary>Hint given by question</summary>
 
 ```text
 Have you looked at the page you get redirected to instead of a 404?
@@ -586,7 +586,7 @@ Check on tool to extract data from audio !!
 
 What is the root flag?
 
-<details><summary>Hint by question</summary>
+<details><summary>Hint given by question</summary>
 
 ```text
 You can either privilege escalate with a vulnerability disclosed in October 2019 (try sudo -l).
@@ -608,7 +608,7 @@ Then you have the root flag
 
 BONUS POINTS: Did you crack the killswitch? Enter the flag:
 
-<details><summary>Hint by question</summary>
+<details><summary>Hint given by question</summary>
 
 ```text
 The closer you are to the answer, the harder it gets.
