@@ -11,6 +11,8 @@
 
 Difficulty: **Medium**
 
+The room is completed on June 18th, 2021
+
 You will learn basic knowledge and understanding of tshark and its usage.
 
 <!-- /Description -->
