@@ -46,15 +46,11 @@ Nothing to solve, read through the introduction.
 
 Quite easy, have you inspect and get all the details from apache2 log?
 
-<br />
-
 ## Task 4
 
 The instruction from the task do mentioned a few item to inspect, ensure you have inspect everything.
 
 You will find the answer right there.
-
-<br />
 
 ## Task 5
 
@@ -62,13 +58,9 @@ Have you research if you have passwd and shadow file, what can you get out of it
 
 Please Google it, answer is there !
 
-<br />
-
 ## Task 6
 
 Nothing to solve, read through the introduction.
-
-<br />
 
 ## Task 7 - 9
 
@@ -76,13 +68,9 @@ The instruction from the task do mentioned a few item to inspect, ensure you hav
 
 You will find the answer right there.
 
-<br />
-
 ## Task 10
 
 Nothing to solve, read through the introduction.
-
-<br />
 
 ## Task 11
 
