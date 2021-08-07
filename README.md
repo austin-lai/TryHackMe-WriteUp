@@ -36,6 +36,10 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
     - [TryHackMe(THM) - Attacktive Directory - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Attacktive%20Directory)
     - [TryHackMe(THM) - Basic Malware RE - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Basic%20Malware%20RE)
     - [TryHackMe(THM) - Linux Server Forensics - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Linux%20Server%20Forensics)
+    - [TryHackMe(THM) - CherryBlossom - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-CherryBlossom)
+    - [TryHackMe(THM) - Cicada-3301 Vol-1 - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Cicada-3301%20Vol-1)
+    - [TryHackMe(THM) - ConvertMyVideo - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-ConvertMyVideo)
+    - [TryHackMe(THM) - Iron Corp - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Iron%20Corp)
 
 <!-- /TOC -->
 
