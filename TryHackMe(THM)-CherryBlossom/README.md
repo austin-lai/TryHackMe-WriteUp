@@ -21,7 +21,7 @@ The room is completed on May 7th, 2020
 
 <!-- TOC -->
 
-- [TryHackMeTHM - CherryBlossom - WriteUp](#tryhackmethm---cherryblossom---writeup)
+- [TryHackMe(THM) - CherryBlossom - WriteUp](#tryhackmethm---cherryblossom---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
         - [Journal Flag](#journal-flag)
@@ -131,7 +131,7 @@ OS and Service detection performed. Please report any incorrect results at https
 
 Notice there is SMB?
 
-You can fire up nmap smb vuln script smbclient, smbmap or for our case, we use enum4linux !
+You can fire up nmap smb vuln script, smbclient, smbmap or for our case, we use enum4linux !
 
 enum4linux result:
 
