@@ -32,7 +32,7 @@ Happy hacking!
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Iron Corp - WriteUp](#tryhackmethm---iron-corp---writeup)
+- [TryHackMe(THM) - Iron Corp - WriteUp](#tryhackmethm---iron-corp---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
         - [User Flag](#user-flag)
