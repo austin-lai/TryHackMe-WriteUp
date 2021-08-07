@@ -23,7 +23,7 @@ The room is completed on June 12th, 2020
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Cicada-3301 Vol-1 - WriteUp](#tryhackmethm---cicada-3301-vol-1---writeup)
+- [TryHackMe(THM) - Cicada-3301 Vol-1 - WriteUp](#tryhackmethm---cicada-3301-vol-1---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Task 2](#task-2)
