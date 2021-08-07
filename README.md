@@ -33,6 +33,9 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
     - [TryHackMe(THM) - HaskHell - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-HaskHell)
     - [TryHackMe(THM) - Tshark - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Tshark)
     - [TryHackMe(THM) - Disk Analysis & Autopsy - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Disk%20Analysis%20%26%20Autopsy)
+    - [TryHackMe(THM) - Attacktive Directory - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Attacktive%20Directory)
+    - [TryHackMe(THM) - Basic Malware RE - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Basic%20Malware%20RE)
+    - [TryHackMe(THM) - Linux Server Forensics - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Linux%20Server%20Forensics)
 
 <!-- /TOC -->
 
