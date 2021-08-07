@@ -21,7 +21,7 @@ The room is completed on May 7th, 2020
 
 <!-- TOC -->
 
-- [TryHackMeTHM - CherryBlossom - WriteUp](#tryhackmethm---cherryblossom---writeup)
+- [TryHackMe(THM) - CherryBlossom - WriteUp](#tryhackmethm---cherryblossom---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
         - [Journal Flag](#journal-flag)
