@@ -47,15 +47,12 @@ Quite easy, have  you done basic enumeration? Fire up NMAP perhaps?
 
 You will all the answer there.
 
-<br />
 
 ## Task 4
 
 Quite easy as well, instruction given to get start on a tool called "Kerbrute".
 
 Do some basic research on how to use the tool, you will find all the answer there.
-
-<br />
 
 ## Task 5
 
@@ -71,8 +68,6 @@ Now, you know it, cracked the hash !
 
 If you have no idea what tools to use, check out JTR, hashcat ...
 
-<br />
-
 ## Task 6
 
 Now you got the username and password.
@@ -83,8 +78,6 @@ Do some basic enumeration, have you done any enumeration relevant to file server
 
 You will find the content is an encoded string, what base it used?
 
-<br />
-
 ## Task 7
 
 Quite easy as well, instruction given to get start on a subset tool called "secretsdump[.]py" within "Impacket".
@@ -92,8 +85,6 @@ Quite easy as well, instruction given to get start on a subset tool called "secr
 Research how to use it, you will find the answer.
 
 Tho, do you research on the method we used to get the hash?
-
-<br />
 
 ## Task 8
 
