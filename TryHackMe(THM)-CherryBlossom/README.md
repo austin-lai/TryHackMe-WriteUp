@@ -429,7 +429,7 @@ Here what is it.
 
 But it doesn't make sense, right? Showing blossom picture.
 
-So let's think what content we can get from this PNG file.
+So let's think of what content we can get from this PNG file.
 
 Do some basic steganography check, nothing yield possible outcome.
 
