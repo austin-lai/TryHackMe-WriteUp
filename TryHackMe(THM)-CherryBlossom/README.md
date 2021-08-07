@@ -459,7 +459,7 @@ JTR - zip2john
 
 Yeah, we finally get to unzip it.
 
-But, dont happy so soon ! 😬
+But, don't happy so soon ! 😬
 
 Have you check file command again?
 
