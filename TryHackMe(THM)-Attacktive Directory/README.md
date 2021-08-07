@@ -47,7 +47,6 @@ Quite easy, have  you done basic enumeration? Fire up NMAP perhaps?
 
 You will all the answer there.
 
-
 ## Task 4
 
 Quite easy as well, instruction given to get start on a tool called "Kerbrute".
