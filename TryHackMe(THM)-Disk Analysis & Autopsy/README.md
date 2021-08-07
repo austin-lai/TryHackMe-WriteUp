@@ -15,7 +15,7 @@ The room is completed on June 17th, 2021
 
 You will learn how to analyse Windows Disk Image with popular Forensic Tools --- Autopsy.
 
-Please make sure you o research and play around Autopsy before you started this room.
+Please make sure you have research and play around Autopsy before you started this room.
 
 <!-- /Description -->
 
