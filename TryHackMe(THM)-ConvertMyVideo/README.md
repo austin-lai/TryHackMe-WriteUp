@@ -21,7 +21,7 @@ The room is completed on May 9th, 2020
 
 <!-- TOC -->
 
-- [TryHackMeTHM - ConvertMyVideo - WriteUp](#tryhackmethm---convertmyvideo---writeup)
+- [TryHackMe(THM) - ConvertMyVideo - WriteUp](#tryhackmethm---convertmyvideo---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
         - [Question 1](#question-1)
