@@ -209,7 +209,7 @@ Use the same tool used to extract data in the original Cicada challenges
 
 Once you have the file downloaded from previous task, you can continue here.
 
-![task5-stego](task5-stego.png)
+![task5-stego-extracted](task5-stego-extracted.png)
 
 Have you google and research online about original cicada?
 
