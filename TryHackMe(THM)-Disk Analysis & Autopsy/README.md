@@ -25,7 +25,7 @@ Please make sure you o research and play around Autopsy before you started this 
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Disk Analysis & Autopsy - WriteUp](#tryhackmethm---disk-analysis--autopsy---writeup)
+- [TryHackMe(THM) - Disk Analysis & Autopsy - WriteUp](#tryhackmethm---disk-analysis--autopsy---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
         - [Question 1](#question-1)
