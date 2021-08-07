@@ -21,7 +21,7 @@ The room is completed on May 7th, 2020
 
 <!-- TOC -->
 
-- [TryHackMe(THM) - CherryBlossom - WriteUp](#tryhackmethm---cherryblossom---writeup)
+- [TryHackMeTHM - CherryBlossom - WriteUp](#tryhackmethm---cherryblossom---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
         - [Journal Flag](#journal-flag)
@@ -166,15 +166,15 @@ Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
 |    Nbtstat Information for 10.10.80.171    |
  ============================================ 
 Looking up status of 10.10.80.171
-	UBUNTU          <00> -         B <ACTIVE>  Workstation Service
-	UBUNTU          <03> -         B <ACTIVE>  Messenger Service
-	UBUNTU          <20> -         B <ACTIVE>  File Server Service
-	..__MSBROWSE__. <01> - <GROUP> B <ACTIVE>  Master Browser
-	WORKGROUP       <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
-	WORKGROUP       <1d> -         B <ACTIVE>  Master Browser
-	WORKGROUP       <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+ UBUNTU          <00> -         B <ACTIVE>  Workstation Service
+ UBUNTU          <03> -         B <ACTIVE>  Messenger Service
+ UBUNTU          <20> -         B <ACTIVE>  File Server Service
+ ..__MSBROWSE__. <01> - <GROUP> B <ACTIVE>  Master Browser
+ WORKGROUP       <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+ WORKGROUP       <1d> -         B <ACTIVE>  Master Browser
+ WORKGROUP       <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
 
-	MAC Address = 00-00-00-00-00-00
+ MAC Address = 00-00-00-00-00-00
 
  ===================================== 
 |    Session Check on 10.10.80.171    |
@@ -203,16 +203,16 @@ Domain Sid: (NULL SID)
 [+] Got OS info for 10.10.80.171 from smbclient: 
 [V] Attempting to get OS info with command: rpcclient -W 'WORKGROUP' -U''%'' -c 'srvinfo' '10.10.80.171' 2>&1
 [+] Got OS info for 10.10.80.171 from srvinfo:
-	UBUNTU         Wk Sv PrQ Unx NT SNT Samba 4.7.6-Ubuntu
-	platform_id     :	500
-	os version      :	6.1
-	server type     :	0x809a03
+ UBUNTU         Wk Sv PrQ Unx NT SNT Samba 4.7.6-Ubuntu
+ platform_id     : 500
+ os version      : 6.1
+ server type     : 0x809a03
 
  ============================= 
 |    Users on 10.10.80.171    |
  ============================= 
 [V] Attempting to get userlist with command: rpcclient -W 'WORKGROUP' -c querydispinfo -U''%'' '10.10.80.171' 2>&1
-index: 0x1 RID: 0x3e8 acb: 0x00000010 Account: samba	Name: 	Desc: 
+index: 0x1 RID: 0x3e8 acb: 0x00000010 Account: samba Name:  Desc: 
 
 [V] Attempting to get userlist with command: rpcclient -W 'WORKGROUP' -c enumdomusers -U''%'' '10.10.80.171' 2>&1
 user:[samba] rid:[0x3e8]
@@ -229,17 +229,17 @@ user:[samba] rid:[0x3e8]
  ========================================= 
 [V] Attempting to get share list using authentication
 
-	Sharename       Type      Comment
-	---------       ----      -------
-	Anonymous       Disk      Anonymous File Server Share
-	IPC$            IPC       IPC Service (Samba 4.7.6-Ubuntu)
+ Sharename       Type      Comment
+ ---------       ----      -------
+ Anonymous       Disk      Anonymous File Server Share
+ IPC$            IPC       IPC Service (Samba 4.7.6-Ubuntu)
 SMB1 disabled -- no workgroup available
 
 [+] Attempting to map shares on 10.10.80.171
 [V] Attempting map to share //10.10.80.171/Anonymous with command: smbclient -W 'WORKGROUP' //'10.10.80.171'/'Anonymous' -U''%'' -c dir 2>&1
-//10.10.80.171/Anonymous	Mapping: OK, Listing: OK
+//10.10.80.171/Anonymous Mapping: OK, Listing: OK
 [V] Attempting map to share //10.10.80.171/IPC$ with command: smbclient -W 'WORKGROUP' //'10.10.80.171'/'IPC$' -U''%'' -c dir 2>&1
-//10.10.80.171/IPC$	[E] Can't understand response:
+//10.10.80.171/IPC$ [E] Can't understand response:
 NT_STATUS_OBJECT_NAME_NOT_FOUND listing \*
 
  ==================================================== 
@@ -253,11 +253,11 @@ NT_STATUS_OBJECT_NAME_NOT_FOUND listing \*
 
 [+] Trying protocol 139/SMB...
 
-	[!] Protocol failed: Missing required parameter 'digestmod'.
+ [!] Protocol failed: Missing required parameter 'digestmod'.
 
 [+] Trying protocol 445/SMB...
 
-	[!] Protocol failed: Missing required parameter 'digestmod'.
+ [!] Protocol failed: Missing required parameter 'digestmod'.
 
 [V] Attempting to get Password Policy info with command: rpcclient -W 'WORKGROUP' -U''%'' '10.10.80.171' -c "getdompwinfo" 2>&1
 
@@ -341,50 +341,50 @@ S-1-22-1-1002 Unix User\lily (Local User)
 S-1-5-21-3394966362-3970299913-3211979797-500 *unknown*\*unknown* (8)
 S-1-5-21-3394966362-3970299913-3211979797-501 UBUNTU\nobody (Local User)
 [V] Attempting to get detailed user info with command: rpcclient -W 'WORKGROUP' -U''%'' -c 'queryuser 501' '10.10.80.171' 2>&1
-	User Name   :	nobody
-	Full Name   :	nobody
-	Home Drive  :	
-	Dir Drive   :	(null)
-	Profile Path:	
-	Logon Script:	
-	Description :	
-	Workstations:	
-	Comment     :	
-	Remote Dial :
-	Logon Time               :	Thu, 01 Jan 1970 07:30:00 +0730
-	Logoff Time              :	Thu, 14 Sep 30828 10:48:05 +08
-	Kickoff Time             :	Thu, 14 Sep 30828 10:48:05 +08
-	Password last set Time   :	Thu, 01 Jan 1970 07:30:00 +0730
-	Password can change Time :	Thu, 01 Jan 1970 07:30:00 +0730
-	Password must change Time:	Thu, 01 Jan 1970 07:30:00 +0730
-	unknown_2[0..31]...
-	user_rid :	0x1f5
-	group_rid:	0x201
-	acb_info :	0x00000010
-	fields_present:	0x00ffffff
-	logon_divs:	168
-	bad_password_count:	0x00000000
-	logon_count:	0x00000000
-	padding1[0..7]...
-	logon_hrs[0..21]...
-	Account Disabled         : False
-	Password does not expire : False
-	Account locked out       : False
-	Password expired         : False
-	Interdomain trust account: False
-	Workstation trust account: False
-	Server trust account     : False
-	Trusted for delegation   : False
+ User Name   : nobody
+ Full Name   : nobody
+ Home Drive  : 
+ Dir Drive   : (null)
+ Profile Path: 
+ Logon Script: 
+ Description : 
+ Workstations: 
+ Comment     : 
+ Remote Dial :
+ Logon Time               : Thu, 01 Jan 1970 07:30:00 +0730
+ Logoff Time              : Thu, 14 Sep 30828 10:48:05 +08
+ Kickoff Time             : Thu, 14 Sep 30828 10:48:05 +08
+ Password last set Time   : Thu, 01 Jan 1970 07:30:00 +0730
+ Password can change Time : Thu, 01 Jan 1970 07:30:00 +0730
+ Password must change Time: Thu, 01 Jan 1970 07:30:00 +0730
+ unknown_2[0..31]...
+ user_rid : 0x1f5
+ group_rid: 0x201
+ acb_info : 0x00000010
+ fields_present: 0x00ffffff
+ logon_divs: 168
+ bad_password_count: 0x00000000
+ logon_count: 0x00000000
+ padding1[0..7]...
+ logon_hrs[0..21]...
+ Account Disabled         : False
+ Password does not expire : False
+ Account locked out       : False
+ Password expired         : False
+ Interdomain trust account: False
+ Workstation trust account: False
+ Server trust account     : False
+ Trusted for delegation   : False
 
 S-1-5-21-3394966362-3970299913-3211979797-502 *unknown*\*unknown* (8)
 S-1-5-21-3394966362-3970299913-3211979797-503 *unknown*\*unknown* (8)
 S-1-5-21-3394966362-3970299913-3211979797-504 *unknown*\*unknown* (8)
 S-1-5-21-3394966362-3970299913-3211979797-513 UBUNTU\None (Domain Group)
 [V] Attempting to get detailed group info with command: rpcclient -W 'WORKGROUP' -U''%'' -c 'querygroup 513' '10.10.80.171' 2>&1
-	Group Name:	None
-	Description:	Ordinary Users
-	Group Attribute:7
-	Num Members:0
+ Group Name: None
+ Description: Ordinary Users
+ Group Attribute:7
+ Num Members:0
 
 S-1-5-21-3394966362-3970299913-3211979797-514 *unknown*\*unknown* (8)
 S-1-5-21-3394966362-3970299913-3211979797-515 *unknown*\*unknown* (8)
