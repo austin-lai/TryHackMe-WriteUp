@@ -23,7 +23,7 @@ The room is completed on June 18th, 2021
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Linux Server Forensics - WriteUp](#tryhackmethm---linux-server-forensics---writeup)
+- [TryHackMe(THM) - Linux Server Forensics - WriteUp](#tryhackmethm---linux-server-forensics---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Task 2 - 3](#task-2---3)
