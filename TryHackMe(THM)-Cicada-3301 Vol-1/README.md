@@ -25,13 +25,23 @@ The room is completed on June 12th, 2020
 
 - [TryHackMeTHM - Cicada-3301 Vol-1 - WriteUp](#tryhackmethm---cicada-3301-vol-1---writeup)
     - [Table of Contents](#table-of-contents)
-    - [Task 1 - 2](#task-1---2)
+    - [Task 1](#task-1)
+    - [Task 2](#task-2)
     - [Task 3](#task-3)
+        - [Question 1](#question-1)
+        - [Question 2](#question-2)
+        - [Question 3](#question-3)
+        - [Question 4](#question-4)
+        - [Question 5](#question-5)
     - [Task 4](#task-4)
     - [Task 5](#task-5)
     - [Task 6](#task-6)
+        - [Question 1](#question-1)
+        - [Question 2](#question-2)
+        - [Question 3](#question-3)
+        - [Question 4](#question-4)
+        - [Question 5](#question-5)
     - [Task 7](#task-7)
-    - [Task 8](#task-8)
 
 <!-- /TOC -->
 
@@ -43,54 +53,257 @@ Nothing to solve, read through the introduction.
 
 ## Task 2
 
-Quite easy, have  you done basic enumeration? Fire up NMAP perhaps?
+```text
+Web Browsers are useless here
 
-You will all the answer there.
+Welcome.
 
+Good Luck
+
+-3301
+
+Use Sonic Visualizer to analyze the audio
+```
+
+Have you tried spectrogram?
+
+![qr-code-extarcted-wav.png](qr-code-extarcted-wav.png)
+
+Scan the QR Code, what is the link?
 
 ## Task 3
 
-Quite easy as well, instruction given to get start on a tool called "Kerbrute".
+```text
+Welcome.
 
-Do some basic research on how to use the tool, you will find all the answer there.
+Good Luck.
+
+-3301
+
+Use various encryption methods and ciphers to decode the passphrase and
+
+access the metadata of Welcome.jpg
+```
+
+### Question 1
+
+_Find and Decrypt the passphrase and key_
+
+Open the link you get from previous task.
+
+<br />
+
+### Question 2
+
+_What is the decrypted passphrase?_
+
+<details><summary>Hint given by question</summary>
+
+```text
+Base64
+```
+
+![task3-question2-answer](task3-question2-answer.png)
+
+</details>
+
+<br />
+
+### Question 3
+
+_What is the decrypted key?_
+
+<details><summary>Hint given by question</summary>
+
+```text
+Base64
+```
+
+![task3-question3-answer](task3-question3-answer.png)
+
+</details>
+
+<br />
+
+### Question 4
+
+_Still looks funny? Find and use a cipher along with the key to decipher the passphrase_
+
+<details><summary>Hint given by question</summary>
+
+```text
+French Diplomat Cipher
+```
+
+</details>
+
+<br />
+
+### Question 5
+
+_What is the final passphrase_
+
+<details><summary>Hint given by question</summary>
+
+```text
+Encode using Vigenere Cipher
+```
+
+</details>
+
+You have the passphrase and key, given the hint. Check it out .
+
+<br />
 
 ## Task 4
 
-Quite easy as well, instruction given to get start on a tool called "Impacket".
+```text
+Good Luck
 
-Do some basic research on how to use the tool, you will find all the answer there.
+-3301
 
-Remember what are the users you found in previous task.
+Use Steganography tools to gather metadata from Welcome.jpg as well as 
 
-Then you will get the hash, google it, you will find the answer as well.
+find the hidden message inside of the image file.
+```
 
-Now, you know it, cracked the hash !
+_Using the found passphrase along with Stego tools find the secret message_
 
-If you have no idea what tools to use, check out JTR, hashcat ...
+_What link is given?_
+
+<details><summary>Hint given by question</summary>
+
+```text
+Steghide
+```
+
+![steghide-output](steghide-output.png)
+
+</details>
+
+Once you get the link, remember to check out the link, what is the file awaiting you ...
 
 ## Task 5
 
-Now you got the username and password.
+```text
+I am surprised you have made it this far... 
 
-As the task stated, back to basic !
+I doubt you will make it any further.
 
-Do some basic enumeration, have you done any enumeration relevant to file server? samba? smb?
+-3301
 
-You will find the content is an encoded string, what base it used?
+Use Stego tools to find the hidden files inside of the image
+```
+
+_Using stego tools find the hidden file inside of the image_
+
+_What tool did you use to find the hidden file_
+
+<details><summary>Hint given by question</summary>
+
+```text
+Use the same tool used to extract data in the original Cicada challenges
+```
+
+</details>
+
+Once you have the file downloaded from previous task, you can continue here.
+
+![task5-stego](task5-stego.png)
+
+Have you google and research online about original cicada?
 
 ## Task 6
 
-Quite easy as well, instruction given to get start on a subset tool called "secretsdump[.]py" within "Impacket".
+```text
+We have one last challenge to find our individuals
 
-Research how to use it, you will find the answer.
+Find the last clue, crack the hash, decipher the message
 
-Tho, do you research on the method we used to get the hash?
+Good Luck
+
+-3301
+
+Use Hash cracking tools to reveal the text to the text 
+
+Use methods like Cicada to decipher the message
+```
+
+Once you have the file extracted from previous task, you can continue here.
+
+![task6-file](task6-file.png)
+
+### Question 1
+
+_Crack the Hash_
+
+No answer required.
+
+<br />
+
+### Question 2
+
+_What is the Hash type?_
+
+<details><summary>Hint given by question</summary>
+
+```text
+SHA... Figure out the rest
+```
+
+</details>
+
+What is the hash? Have you check out hashid?
+
+![task6-hashid](task6-hashid.png)
+
+<br />
+
+### Question 3
+
+_What is the Link from the hash?_
+
+<details><summary>Hint given by question</summary>
+
+```text
+Answer is not in conventional wordlists, try an online service
+```
+
+</details>
+
+Once you check out the hint, you will get the answer.
+
+Remember to download the file.
+
+<br />
+
+### Question 4
+
+_Decipher the message_
+
+<details><summary>Hint given by question</summary>
+
+```text
+Use the same techniques the Cicada participants used
+```
+
+Have you done research on original Cicada? Perhaps book cipher?
+
+You may use manual method or online method.
+
+</details>
+
+<br />
+
+### Question 5
+
+_What is the link?_
+
+Once you done the previous question, the answer is there.
 
 ## Task 7
 
-Now you have all the user login.
-
-Time to submit the flag !!!
+One you get the link from previous task - last question, answer is right there.
 
 <br />
 
