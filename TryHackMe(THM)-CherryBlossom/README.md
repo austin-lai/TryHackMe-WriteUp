@@ -443,6 +443,8 @@ The zip file is password-protected and contain a file ctz.
 
 But if you check the file command, it's JPEG.
 
+![journal-png-extracted-zip](journal-png-extracted-zip.png)
+
 Anything you can think of? File signature perhaps?
 
 Once we get it right, then we can try to crack the zip file.
@@ -460,6 +462,8 @@ Yeah, we finally get to unzip it.
 But, dont happy so soon ! 😬
 
 Have you check file command again?
+
+![journal-zip-extracted](journal-zip-extracted.png)
 
 Again, once you get it right. We can get start cracking ...
 
