@@ -27,7 +27,7 @@ Hack into the machine and capture both the user and root flags! It's pretty hard
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Racetrack Bank - WriteUp](#tryhackmethm---racetrack-bank---writeup)
+- [TryHackMe(THM) - Racetrack Bank - WriteUp](#tryhackmethm---racetrack-bank---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
         - [User Flag](#user-flag)
