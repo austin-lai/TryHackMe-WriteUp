@@ -29,7 +29,7 @@ Deploy the machine - it may take up to 2 minutes to configure
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Daily Bugle - WriteUp](#tryhackmethm---daily-bugle---writeup)
+- [TryHackMe(THM) - Daily Bugle - WriteUp](#tryhackmethm---daily-bugle---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Task 2](#task-2)
