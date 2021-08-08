@@ -12,6 +12,8 @@ Contain all of my TryHackMe Room Experience / WriteUp
 
 New to here, will try to update everything here.
 
+Note that some of the room completed sometime ago before published here, hence the technique or method might or can be improved.
+
 Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
 
 <!-- /Description -->
@@ -40,6 +42,8 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
     - [TryHackMe(THM) - Cicada-3301 Vol-1 - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Cicada-3301%20Vol-1)
     - [TryHackMe(THM) - ConvertMyVideo - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-ConvertMyVideo)
     - [TryHackMe(THM) - Iron Corp - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Iron%20Corp)
+    - [TryHackMe(THM) - Racetrack Bank - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Racetrack%20Bank)
+    - [TryHackMe(THM) - Daily Bugle - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Daily%20Bugle)
 
 <!-- /TOC -->
 
