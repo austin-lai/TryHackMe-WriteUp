@@ -47,6 +47,7 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
     - [TryHackMe(THM) - Anonymous - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Anonymous)
     - [TryHackMe(THM) - Dogcat - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)Dogcat)
     - [TryHackMe(THM) - Develpy - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryhackMe(THM)-Develpy)
+    - [TryHackMe(THM) - Wonderland - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Wonderland)
 
 <!-- /TOC -->
 
