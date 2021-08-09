@@ -44,6 +44,9 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
     - [TryHackMe(THM) - Iron Corp - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Iron%20Corp)
     - [TryHackMe(THM) - Racetrack Bank - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Racetrack%20Bank)
     - [TryHackMe(THM) - Daily Bugle - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Daily%20Bugle)
+    - [TryHackMe(THM) - Anonymous - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Anonymous)
+    - [TryHackMe(THM) - Dogcat - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)Dogcat)
+    - [TryHackMe(THM) - Develpy - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryhackMe(THM)-Develpy)
 
 <!-- /TOC -->
 
