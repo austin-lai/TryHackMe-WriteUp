@@ -21,7 +21,7 @@ The room is completed on June 11th, 2020
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Anonymous - WriteUp](#tryhackmethm---anonymous---writeup)
+- [TryHackMe(THM) - Anonymous - WriteUp](#tryhackmethm---anonymous---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
         - [Question 1](#question-1)
