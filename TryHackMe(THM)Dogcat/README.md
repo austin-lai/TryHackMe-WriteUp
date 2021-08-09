@@ -19,7 +19,7 @@ The room is completed on May 20th, 2020
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Dogcat - WriteUp](#tryhackmethm---dogcat---writeup)
+- [TryHackMe(THM) - Dogcat - WriteUp](#tryhackmethm---dogcat---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
         - [Question 1](#question-1)
@@ -220,7 +220,7 @@ Cat :
 
 ![cat](cat.png)
 
-We have most of the enumeration, but nothing yield any outcome.
+We have done most of the enumeration, but nothing yield any outcome.
 
 The dogs and cats picture are randomly given from the images folder - dogs and cats.
 
