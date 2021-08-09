@@ -23,7 +23,7 @@ The room is completed on June 14th, 2020
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Develpy - WriteUp](#tryhackmethm---develpy---writeup)
+- [TryHackMe(THM) - Develpy - WriteUp](#tryhackmethm---develpy---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Let's Begin Here !!!](#lets-begin-here-)
@@ -155,13 +155,13 @@ OS and Service detection performed. Please report any incorrect results at https
 # Nmap done at Sun Jun 14 23:01:15 2020 -- 1 IP address (1 host up) scanned in 487.54 seconds
 ```
 
-As nmap result show, port 10000 is running some web with python and it giving error message on the python input - integer error.
+As nmap result show, port 10000 is running some web server with python and it giving error message on the python input - integer error.
 
 So let's try to craft python [connect script](connect.py) and pass a proper input as integer then.
 
-You wonder how we crafted the python connect script?
+You wonder how we crafted the python connect script right ?
 
-Well, based on nmap result, as client will received a few lines of data (response).
+Well, based on nmap result, client will received a few lines of data (response).
 
 ```text
 Private 0days
@@ -172,15 +172,15 @@ num_exploits = int(input(' Please enther number of exploits to send??: '))
 
 First 2 lines show the header and instruction.
 
-Then 3rd line require an input of integer which the nmap does not pass properly hence prompt error.
+Then 3rd line require an input of integer which nmap does not pass properly hence prompt error.
 
 So, in our connect script, we send a proper integer (1) message on the python input.
 
 Notice we are using byte as python 3 take input as byte.
 
-In the input we also send '\n', as newline, since we want to python server know the input is end.
+In the input we also send '\n', as newline, since we want python server to know the input is end.
 
-Last, we added to received data, this allow us to check if any response given by python server. You have trial and error to get how many response it has.
+Last, we added to receive data, this allow us to check if any response given by python server. You have to trial and error to get how many response it has.
 
 However, based on the response, it seem like a ping message, the input we send consider as how many packet we want to send.
 
