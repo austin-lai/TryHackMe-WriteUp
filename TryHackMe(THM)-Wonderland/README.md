@@ -23,7 +23,7 @@ The room is completed on June 10th, 2020
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Wonderland - WriteUp](#tryhackmethm---wonderland---writeup)
+- [TryHackMe(THM) - Wonderland - WriteUp](#tryhackmethm---wonderland---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Let's Begin Here !!!](#lets-begin-here-)
