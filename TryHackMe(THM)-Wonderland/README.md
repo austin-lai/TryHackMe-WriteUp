@@ -11,8 +11,6 @@
 
 Difficulty: **Medium**
 
-However, I rate it as quite easy.
-
 The room is completed on June 10th, 2020
 
 <!-- /Description -->
@@ -41,7 +39,6 @@ Hint: Everything is upside down here.
 
 Escalate your privileges, what is the flag in root.txt?
 ```
-
 
 ## Let's Begin Here !!!
 
