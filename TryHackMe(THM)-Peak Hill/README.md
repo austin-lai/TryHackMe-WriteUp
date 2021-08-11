@@ -21,7 +21,7 @@ The room is completed on May 24th, 2020
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Peak Hill - WriteUp](#tryhackmethm---peak-hill---writeup)
+- [TryHackMe(THM) - Peak Hill - WriteUp](#tryhackmethm---peak-hill---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Let's Begin Here !!!](#lets-begin-here-)
