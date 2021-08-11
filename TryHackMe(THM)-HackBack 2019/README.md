@@ -19,7 +19,7 @@ Difficulty: **Medium**
 
 <!-- TOC -->
 
-- [TryHackMeTHM - HackBack 2019  - WriteUp](#tryhackmethm---hackback-2019----writeup)
+- [TryHackMe(THM) - HackBack 2019  - WriteUp](#tryhackmethm---hackback-2019----writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1 - 2](#task-1---2)
     - [Task 3](#task-3)
