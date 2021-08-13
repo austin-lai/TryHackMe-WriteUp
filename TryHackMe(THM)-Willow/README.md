@@ -21,7 +21,7 @@ The room is completed on May 20th, 2020
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Willow - WriteUp](#tryhackmethm---willow---writeup)
+- [TryHackMe(THM) - Willow - WriteUp](#tryhackmethm---willow---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Let's Begin Here !!!](#lets-begin-here-)
