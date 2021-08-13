@@ -39,7 +39,7 @@ Hack into the machine and capture both the user and root flags! It's pretty hard
 
 ## Task 1
 
-Let fire up basic enumeration.
+Let's fire up basic enumeration.
 
 Nmap result:
 
