@@ -34,7 +34,7 @@ The room is completed on May 7th, 2020
 
 ## Task 1
 
-Let fire up basic enumeration.
+Let's fire up basic enumeration.
 
 Nmap result:
 
