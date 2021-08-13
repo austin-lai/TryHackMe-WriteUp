@@ -88,7 +88,7 @@ _root.txt_
 
 ## Let's Begin Here !!!
 
-Let fire up basic enumeration.
+Let's fire up basic enumeration.
 
 Nmap result:
 
