@@ -41,7 +41,7 @@ read user.txt and root.txt
 
 ## Let's Begin Here !!!
 
-Let fire up basic enumeration.
+Let's fire up basic enumeration.
 
 Nmap result:
 
