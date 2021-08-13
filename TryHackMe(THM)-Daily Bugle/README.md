@@ -58,7 +58,7 @@ _What is the root flag?_
 
 ## Let's Begin Here !!!
 
-Let fire up basic enumeration.
+Let's fire up basic enumeration.
 
 Nmap result:
 
