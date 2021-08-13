@@ -45,7 +45,7 @@ Happy hacking!
 
 ## Task 1
 
-Let fire up basic enumeration.
+Let's fire up basic enumeration.
 
 Nmap result:
 
