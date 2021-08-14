@@ -2,7 +2,7 @@
 
 > Austin Lai | July 25th, 2021
 
-> Last Update | August 6th, 2021
+> Last Update | August 14th, 2021
 
 ---
 
@@ -48,6 +48,9 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
     - [TryHackMe(THM) - Dogcat - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)Dogcat)
     - [TryHackMe(THM) - Develpy - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryhackMe(THM)-Develpy)
     - [TryHackMe(THM) - Wonderland - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Wonderland)
+    - [TryHackMe(THM) - Metamorphosis - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Metamorphosis)
+    - [TryHackMe(THM) - Peak Hill - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Peak%20Hill)
+    - [TryHackMe(THM) - Willow - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Willow)
 
 <!-- /TOC -->
 
