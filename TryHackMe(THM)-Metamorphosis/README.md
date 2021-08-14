@@ -11,7 +11,7 @@
 
 Difficulty: **Medium**
 
-The room is completed on May 20th, 2020
+The room is completed on Aug 14th, 2021
 
 <!-- /Description -->
 
@@ -21,7 +21,7 @@ The room is completed on May 20th, 2020
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Metamorphosis - WriteUp](#tryhackmethm---metamorphosis---writeup)
+- [TryHackMe(THM) - Metamorphosis - WriteUp](#tryhackmethm---metamorphosis---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Let's Begin Here !!!](#lets-begin-here-)
