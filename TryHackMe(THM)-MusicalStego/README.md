@@ -23,7 +23,7 @@ I would rate it as quite easy and it was fun, given that to work on audio stegan
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Musical Stego - WriteUp](#tryhackmethm---musical-stego---writeup)
+- [TryHackMe(THM) - Musical Stego - WriteUp](#tryhackmethm---musical-stego---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
         - [Question 1](#question-1)
