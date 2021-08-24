@@ -23,7 +23,7 @@ Penetration Testing Challenge
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Relevant - WriteUp](#tryhackmethm---relevant---writeup)
+- [TryHackMe(THM) - Relevant - WriteUp](#tryhackmethm---relevant---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Let's Begin Here !!!](#lets-begin-here-)
