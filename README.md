@@ -2,7 +2,7 @@
 
 > Austin Lai | July 25th, 2021
 
-> Last Update | August 14th, 2021
+> Last Update | August 24th, 2021
 
 ---
 
@@ -51,6 +51,8 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
     - [TryHackMe(THM) - Metamorphosis - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Metamorphosis)
     - [TryHackMe(THM) - Peak Hill - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Peak%20Hill)
     - [TryHackMe(THM) - Willow - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Willow)
+    - [TryHackMe(THM) - Musical Stego - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-MusicalStego)
+    - [TryHackMe(THM) - Gatekeeper - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Gatekeeper)
 
 <!-- /TOC -->
 
