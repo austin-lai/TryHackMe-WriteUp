@@ -23,7 +23,7 @@ Can you get past the gate and through the fire?
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Gatekeeper - WriteUp](#tryhackmethm---gatekeeper---writeup)
+- [TryHackMe(THM) - Gatekeeper - WriteUp](#tryhackmethm---gatekeeper---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Task 2](#task-2)
