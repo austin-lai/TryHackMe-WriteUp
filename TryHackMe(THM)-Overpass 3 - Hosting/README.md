@@ -23,7 +23,7 @@ You know them, you love them, your favourite group of broke computer science stu
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Overpass 3 - Hosting - WriteUp](#tryhackmethm---overpass-3---hosting---writeup)
+- [TryHackMe(THM) - Overpass 3 - Hosting - WriteUp](#tryhackmethm---overpass-3---hosting---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Let's Begin Here !!!](#lets-begin-here-)
