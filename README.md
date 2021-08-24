@@ -53,6 +53,7 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
     - [TryHackMe(THM) - Willow - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Willow)
     - [TryHackMe(THM) - Musical Stego - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-MusicalStego)
     - [TryHackMe(THM) - Gatekeeper - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Gatekeeper)
+    - [TryHackMe(THM) - Relevant - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/blob/master/TryhackMe(THM)-Relevant/README.md)
 
 <!-- /TOC -->
 
