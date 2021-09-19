@@ -2,7 +2,7 @@
 
 > Austin Lai | July 25th, 2021
 
-> Last Update | August 24th, 2021
+> Last Update | Sept 19th, 2021
 
 ---
 
@@ -26,6 +26,7 @@ Hope these set of THM write up will help anyone encounter or _STUCK_ in hole !
 
 - [TryHackMe(THM)-WriteUp](#tryhackmethm-writeup)
     - [Table of Contents](#table-of-contents)
+    - [External Penetration Testing - Holo Corporate Network - TryHackMe - Holo Network](https://github.com/austin-lai/External-Penetration-Testing-Holo-Corporate-Network-TryHackMe-Holo-Network)
     - [TryHackMe(THM) - Custom Wordlists - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/blob/master/TryHackMe(THM)-Custom%20Wordlists)
     - [TryHackMe(THM) - Investigating Windows - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/tree/master/TryHackMe(THM)-Investigating%20Windows)
     - [TryHackMe(THM) - Investigating Windows 2.0 - WriteUp](https://github.com/austin-lai/TryHackMe-WriteUp/blob/master/TryHackMe(THM)-Investigating%20Windows%202.0)
