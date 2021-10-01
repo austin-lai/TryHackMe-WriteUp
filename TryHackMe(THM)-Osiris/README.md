@@ -23,7 +23,7 @@ Can you Quack it?
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Osiris - WriteUp](#tryhackmethm---osiris---writeup)
+- [TryHackMe(THM) - Osiris - WriteUp](#tryhackmethm---osiris---writeup)
     - [Table of Contents](#table-of-contents)
     - [Task 1](#task-1)
     - [Let's Begin Here !!!](#lets-begin-here-)
