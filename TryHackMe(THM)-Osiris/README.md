@@ -94,7 +94,7 @@ python -m http.server 80
 
 Leveraging powershell ` Invoke-WebRequest ` module to download netcat executable within the RubberDucky script.
 
-Once the netcat executable is downloaded, the RubberDucky script with execute command to start netcat connection with specifying shell as cmd.
+Once the netcat executable is downloaded, the RubberDucky script will execute command to start netcat connection with specifying shell as cmd.
 
 Of course, we will need to spin up netcat listener on our attacker machine prior to that.
 
