@@ -30,7 +30,7 @@ Boiler CTF - Intermediate level CTF
 
 <!-- TOC -->
 
-- [TryHackMe(THM) - Boiler CTF - WriteUp](#tryhackmethm---boiler-ctf---writeup)
+- [TryHackMeTHM - Boiler CTF - WriteUp](#tryhackmethm---boiler-ctf---writeup)
     - [Table of Contents](#table-of-contents)
     - [Let's Begin Here !!!](#lets-begin-here-)
     - [Task 1 - Questions #1](#task-1---questions-1)
